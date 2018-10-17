@@ -1,11 +1,11 @@
 package au.com.octo
 
-import au.com.octo.MovieKata._
+import au.com.octo.AndroidAppKata._
 import org.apache.spark.sql.SparkSession
 import org.specs2.mutable.Specification
 import org.specs2.specification.AfterAll
 
-class MovieKataTest extends Specification with AfterAll {
+class AndroidAppKataTest extends Specification with AfterAll {
 
   val androidAppDatasetPath = "src/test/resources/googleplaystore.csv"
   val androidAppReviewsDatasetPath = "src/test/resources/googleplaystore_user_reviews.csv"

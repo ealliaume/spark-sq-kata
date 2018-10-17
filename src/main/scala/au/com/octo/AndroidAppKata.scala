@@ -3,7 +3,7 @@ package au.com.octo
 import org.apache.spark.sql.functions._
 import org.apache.spark.sql.{Dataset, Row, SparkSession}
 
-object MovieKata {
+object AndroidAppKata {
 
   def step1LoadDataset(sparkSession: SparkSession, csvPath: String): Dataset[Row] = {
     // FIX-ME use the spark session to read the csv
