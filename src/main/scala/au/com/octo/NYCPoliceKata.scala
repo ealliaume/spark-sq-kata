@@ -17,7 +17,11 @@ object NYCPoliceKata {
       .getOrCreate()
 
     try {
-      top10carBrandsFined(sparkSession, inputCsv)
+      val ds = top10carBrandsFined(sparkSession, inputCsv)
+
+      ds.show() // you will need to find this in the logs
+
+      ds
         .write
         .option("header", "true")
         .option("escape", "\"")
