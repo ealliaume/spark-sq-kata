@@ -13,12 +13,16 @@ The dataset used for this kata is a list of Android Applications, it has been co
 ## Part1: Play with SparkSQL locally
 
 1. Clone this repository
+
 2. Each step is described and tested in the MovieKataTest class, your goal is to make those tests green
+
 3. If you want to cheat and see the solution, there is  git branch for that :) 
 
 This Kata should take approximately 45 minutes, no previous Spark knowledge needed.
 
 ## Part2: Deploy a spark Application on AWS EMR
+
+This Kata should take approximately 30 minutes, no previous EMR knowledge needed.
 
 ### A. Look at the code
 
