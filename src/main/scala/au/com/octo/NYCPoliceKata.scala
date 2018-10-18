@@ -8,7 +8,7 @@ import org.apache.spark.sql.{Dataset, Row, SparkSession}
 object NYCPoliceKata {
 
   val inputCsv = "s3://era-bigdata-demo/datasets/nyc/Parking_Violations_all.csv"
-  val outputCsv = "s3://era-bigdata-demo/results/la_vie_est_belle.csv"
+  val outputCsv = "s3://era-bigdata-demo/results/la_vie_est_belle"
 
   def main(args: Array[String]): Unit = {
     val sparkSession = SparkSession
